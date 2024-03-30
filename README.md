@@ -4,38 +4,17 @@
 
 ## Overview
 
-This repository contains the code and resources for [Project Name]. Please note that the project is currently undergoing streamlining and may be subject to changes and updates.
+This repository contains the code and resources for grgnn. Please note that the project is currently undergoing construction, many code need to be transfer from MATLAB to PYTHON and to be package, because of these this project may be subject to changes and updates.
 
 ## Table of Contents
 
 - [Introduction](#introduction)
-- [Features](#features)
-- [Usage](#usage)
-- [Installation](#installation)
-- [Contributing](#contributing)
 - [License](#license)
 
 ## Introduction
 
-[Provide a brief introduction to the project, its objectives, and its significance.]
+This repositry focuses on enhancing the precision of time series data prediction by integrating Gated Recurrent Unit (GRU) into a Graph Neural Network (GNN), forming the GRGNN. The accuracy of the GNN (Graph Neural Network) network with introduced GRU (Gated Recurrent Units) is validated by comparing it with four commonly used prediction methods.
 
-## Features
-
-- [Feature 1]
-- [Feature 2]
-- [Feature 3]
-
-## Usage
-
-[Provide instructions on how to use the project, including any setup steps, configurations, or prerequisites.]
-
-## Installation
-
-[Provide instructions on how to install or set up the project, including any dependencies or requirements.]
-
-## Contributing
-
-[Explain how others can contribute to the project, including guidelines for reporting issues, submitting pull requests, and participating in discussions.]
 
 ## License
 
