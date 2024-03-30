@@ -41,20 +41,12 @@ if not os.path.exists(result_test_file):
     os.makedirs(result_test_file)
 data = pd.read_csv(data_file).values
 
-# split data1
 train_ratio = args.train_length / (args.train_length + args.valid_length + args.test_length)
 valid_ratio = args.valid_length / (args.train_length + args.valid_length + args.test_length)
 test_ratio = 1 - train_ratio - valid_ratio
 train_data = data[:int(train_ratio * len(data))]
 valid_data = data[int(train_ratio * len(data)):int((train_ratio + valid_ratio) * len(data))]
 test_data = data[int((train_ratio + valid_ratio) * len(data)):]
-
-# split data2
-#train_data = data[:len(data)-4]
-#valid_data = data[int(train_ratio * len(data)):int((train_ratio + valid_ratio) * len(data))]
-#test_data = data[len(data))-4:]
-
-torch.manual_seed(3407)
 if __name__ == '__main__':
     if args.train:
         try:
