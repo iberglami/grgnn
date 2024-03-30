@@ -4,7 +4,7 @@
 
 ## Overview
 
-This repository contains the code and resources for grgnn. Please note that the project is currently undergoing construction, many code need to be transfer from MATLAB to PYTHON and to be package, because of these this project may be subject to changes and updates.
+This repository contains the code and resources for grgnn. Please note that the project is currently undergoing construction, many code need to be transfer from MATLAB to PYTHON and to be package, because of these this project is temporarily not the completed body and will be subject to changes and updates.
 
 ## Table of Contents
 
